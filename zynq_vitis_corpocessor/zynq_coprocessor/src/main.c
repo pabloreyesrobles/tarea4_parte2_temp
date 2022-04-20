@@ -16,7 +16,7 @@
 
 #define GPIO_DEVICE_ID      XPAR_XGPIOPS_0_DEVICE_ID
 
-#define EUC_RAND_FACTOR     0xFFFFFFFF / RAND_MAX 
+#define EUC_RAND_FACTOR     ((double)0x7FFF / (double)RAND_MAX)
 
 #define VECTOR_SIZE				  1024
 #define BUFFER_SIZE				  128
@@ -90,14 +90,14 @@ int main(void) {
   GenVectors(A_data, B_data);
   TxVectors(&eucdis_ip, A_data, B_data);
 
-  u32 sum = 0;
+  double sum = 0;
   u32 result_sw;
 
   for (int i = 0; i < VECTOR_SIZE; i++) {
-    sum += pow(A_data[i] - B_data[i], 2);
+    sum += (double)((A_data[i] - B_data[i]) * (A_data[i] - B_data[i]));
   }
   result_sw = (u32)sqrt(sum);
-  printf("Resultado SW: %d\n", result_sw);
+  printf("Resultado SW: %lu\n", result_sw);
 
   ip_status = 0x01;
   XEucdis_Start(&eucdis_ip);
@@ -107,33 +107,33 @@ int main(void) {
 }
 
 void EucDis_ReceiveHandler(void *instance_ptr) {
-  u32 result;
-  XEucdis_InterruptDisable(&instance_ptr, 1);
+  //u32 result;
+  XEucdis_InterruptDisable(instance_ptr, 1);
 
-  rx_data[0] = XEucdis_Get_C(&eucdis_ip);
-  printf("Resultado HW: %d\n\n", rx_data[0]);
+  rx_data[0] = XEucdis_Get_C(instance_ptr);
+  printf("Resultado HW: %lu\n\n", rx_data[0]);
 
   ip_status = 0x00;
-  XEucdis_InterruptClear(&instance_ptr, 1);
-  XEucdis_InterruptEnable(&instance_ptr, 1);
+  XEucdis_InterruptClear(instance_ptr, 1);
+  XEucdis_InterruptEnable(instance_ptr, 1);
 }
 
 void TxVectors(XEucdis *instance_ptr, u32 vec_a[VECTOR_SIZE], u32 vec_b[VECTOR_SIZE]) {
   for (int bram = 0; bram < BRAMS; bram++) {
     for (int buf_pos = 0; buf_pos < BUFFER_SIZE; buf_pos++) {
       u16 t_pos = buf_pos * BRAMS + bram;
-      tx_A_data[buf_pos] = t_pos < VECTOR_SIZE ? *((u32 *) &vec_a[t_pos]) : 0;
-      tx_B_data[buf_pos] = t_pos < VECTOR_SIZE ? *((u32 *) &vec_b[t_pos]) : 0;
+      tx_A_data[buf_pos] = t_pos < VECTOR_SIZE ? vec_a[t_pos] : 0;
+      tx_B_data[buf_pos] = t_pos < VECTOR_SIZE ? vec_b[t_pos] : 0;
     }
     XEucdis_Write_A[bram](instance_ptr, 0, tx_A_data, BUFFER_SIZE);
-    XEucdis_Write_A[bram](instance_ptr, 0, tx_B_data, BUFFER_SIZE);
+    XEucdis_Write_B[bram](instance_ptr, 0, tx_B_data, BUFFER_SIZE);
   }  
 }
 
 void GenVectors(u32 vec_a[VECTOR_SIZE], u32 vec_b[VECTOR_SIZE]) {
   for (int i = 0; i < VECTOR_SIZE; i++) {
-    vec_a[i] = rand();
-    vec_b[i] = rand();
+    vec_a[i] = (u32)(((double)rand()) * EUC_RAND_FACTOR);
+    vec_b[i] = (u32)(((double)rand()) * EUC_RAND_FACTOR);
   }  
 }
 
@@ -152,7 +152,7 @@ int Intc_InitFunction(u16 device_id) {
 
   status = XScuGic_Connect(&intc,
                    INTC_EUCDIS_INT_ID,
-                   (Xil_ExceptionHandler) EucDis_ReceiveHandler,
+                   (Xil_InterruptHandler) EucDis_ReceiveHandler,
                    (void *) (&eucdis_ip));
 
   XEucdis_InterruptEnable(&eucdis_ip, 1);
