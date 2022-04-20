@@ -1,0 +1,132 @@
+Nothing to build in platform 'design_1_wrapper'
+
+02:08:27 **** Incremental Build of configuration Debug for project zynq_coprocessor ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:30:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   30 | void (*XEucdis_Write_A[])() = {XEucdis_Write_A_0_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:30:32: note: (near initialization for 'XEucdis_Write_A[0]')
+../src/main.c:31:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   31 |                                XEucdis_Write_A_1_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:31:32: note: (near initialization for 'XEucdis_Write_A[1]')
+../src/main.c:32:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   32 |                                XEucdis_Write_A_2_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:32:32: note: (near initialization for 'XEucdis_Write_A[2]')
+../src/main.c:33:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   33 |                                XEucdis_Write_A_3_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:33:32: note: (near initialization for 'XEucdis_Write_A[3]')
+../src/main.c:34:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   34 |                                XEucdis_Write_A_4_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:34:32: note: (near initialization for 'XEucdis_Write_A[4]')
+../src/main.c:35:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   35 |                                XEucdis_Write_A_5_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:35:32: note: (near initialization for 'XEucdis_Write_A[5]')
+../src/main.c:36:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   36 |                                XEucdis_Write_A_6_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:36:32: note: (near initialization for 'XEucdis_Write_A[6]')
+../src/main.c:37:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   37 |                                XEucdis_Write_A_7_Words};
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:37:32: note: (near initialization for 'XEucdis_Write_A[7]')
+../src/main.c:39:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   39 | void (*XEucdis_Write_B[])() = {XEucdis_Write_B_0_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:39:32: note: (near initialization for 'XEucdis_Write_B[0]')
+../src/main.c:40:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   40 |                                XEucdis_Write_B_1_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:40:32: note: (near initialization for 'XEucdis_Write_B[1]')
+../src/main.c:41:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   41 |                                XEucdis_Write_B_2_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:41:32: note: (near initialization for 'XEucdis_Write_B[2]')
+../src/main.c:42:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   42 |                                XEucdis_Write_B_3_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:42:32: note: (near initialization for 'XEucdis_Write_B[3]')
+../src/main.c:43:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   43 |                                XEucdis_Write_B_4_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:43:32: note: (near initialization for 'XEucdis_Write_B[4]')
+../src/main.c:44:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   44 |                                XEucdis_Write_B_5_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:44:32: note: (near initialization for 'XEucdis_Write_B[5]')
+../src/main.c:45:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   45 |                                XEucdis_Write_B_6_Words,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:45:32: note: (near initialization for 'XEucdis_Write_B[6]')
+../src/main.c:46:32: warning: initialization of 'void (*)()' from incompatible pointer type 'u32 (*)(XEucdis *, int,  word_type *, int)' {aka 'long unsigned int (*)(XEucdis *, int,  long unsigned int *, int)'} [-Wincompatible-pointer-types]
+   46 |                                XEucdis_Write_B_7_Words};
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:46:32: note: (near initialization for 'XEucdis_Write_B[7]')
+../src/main.c: In function 'main':
+../src/main.c:100:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  100 |   printf("Resultado SW: %d\n", result_sw);
+      |                         ~^     ~~~~~~~~~
+      |                          |     |
+      |                          int   u32 {aka long unsigned int}
+      |                         %ld
+../src/main.c: In function 'EucDis_ReceiveHandler':
+../src/main.c:111:28: warning: passing argument 1 of 'XEucdis_InterruptDisable' from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |   XEucdis_InterruptDisable(&instance_ptr, 1);
+      |                            ^~~~~~~~~~~~~
+      |                            |
+      |                            void **
+In file included from ../src/main.c:4:
+E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xeucdis.h:240:40: note: expected 'XEucdis *' but argument is of type 'void **'
+  240 | void XEucdis_InterruptDisable(XEucdis *InstancePtr, u32 Mask);
+      |                               ~~~~~~~~~^~~~~~~~~~~
+../src/main.c:114:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  114 |   printf("Resultado HW: %d\n\n", rx_data[0]);
+      |                         ~^       ~~~~~~~~~~
+      |                          |              |
+      |                          int            u32 {aka long unsigned int}
+      |                         %ld
+../src/main.c:117:26: warning: passing argument 1 of 'XEucdis_InterruptClear' from incompatible pointer type [-Wincompatible-pointer-types]
+  117 |   XEucdis_InterruptClear(&instance_ptr, 1);
+      |                          ^~~~~~~~~~~~~
+      |                          |
+      |                          void **
+In file included from ../src/main.c:4:
+E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xeucdis.h:241:38: note: expected 'XEucdis *' but argument is of type 'void **'
+  241 | void XEucdis_InterruptClear(XEucdis *InstancePtr, u32 Mask);
+      |                             ~~~~~~~~~^~~~~~~~~~~
+../src/main.c:118:27: warning: passing argument 1 of 'XEucdis_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |   XEucdis_InterruptEnable(&instance_ptr, 1);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           void **
+In file included from ../src/main.c:4:
+E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xeucdis.h:239:39: note: expected 'XEucdis *' but argument is of type 'void **'
+  239 | void XEucdis_InterruptEnable(XEucdis *InstancePtr, u32 Mask);
+      |                              ~~~~~~~~~^~~~~~~~~~~
+../src/main.c:110:7: warning: unused variable 'result' [-Wunused-variable]
+  110 |   u32 result;
+      |       ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: zynq_coprocessor.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "zynq_coprocessor.elf"  ./src/main.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: zynq_coprocessor.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size zynq_coprocessor.elf  |tee "zynq_coprocessor.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93175	   3404	  31952	 128531	  1f613	zynq_coprocessor.elf
+'Finished building: zynq_coprocessor.elf.size'
+' '

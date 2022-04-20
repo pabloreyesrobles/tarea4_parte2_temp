@@ -1,0 +1,89 @@
+
+
+================================================================
+== Synthesis Summary Report of 'eucDis'
+================================================================
++ General Information: 
+    * Date:           Tue Apr 19 20:36:09 2022
+    * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
+    * Project:        zynq_hls_coprocessor
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+----------+------------+------------+-----+
+    |              Modules             | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |          |          |            |            |     |
+    |              & Loops             | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|   BRAM   |    DSP   |     FF     |     LUT    | URAM|
+    +----------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+----------+------------+------------+-----+
+    |+ eucDis                          |     -|  0.18|      144|  1.440e+03|         -|      145|     -|        no|  32 (26%)|  48 (60%)|  6224 (17%)|  5049 (28%)|    -|
+    | + grp_sqrt_fixed_33_33_s_fu_353  |    II|  0.18|        8|     80.000|         -|        1|     -|       yes|         -|         -|    543 (1%)|   1358 (7%)|    -|
+    | o eachElement                    |     -|  7.30|      132|  1.320e+03|         6|        1|   128|       yes|         -|         -|           -|           -|    -|
+    +----------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+----------+------------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 14            | 512    | 0        |
++---------------+------------+---------------+--------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+---------------+
+| Argument | Direction | Datatype      |
++----------+-----------+---------------+
+| A        | in        | unsigned int* |
+| B        | in        | unsigned int* |
+| C        | out       | unsigned int* |
++----------+-----------+---------------+
+
+* SW-to-HW Mapping
++----------+----------------------+-----------+-----------------------+
+| Argument | HW Name              | HW Type   | HW Info               |
++----------+----------------------+-----------+-----------------------+
+| A        | s_axi_control        | interface |                       |
+| A        | s_axi_control        | interface |                       |
+| A        | s_axi_control        | interface |                       |
+| A        | s_axi_control        | interface |                       |
+| A        | s_axi_control        | interface |                       |
+| A        | s_axi_control        | interface |                       |
+| A        | s_axi_control        | interface |                       |
+| A        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| B        | s_axi_control        | interface |                       |
+| C        | s_axi_control C      | register  | offset=0x10, range=32 |
+| C        | s_axi_control C_ctrl | register  | offset=0x14, range=32 |
++----------+----------------------+-----------+-----------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+

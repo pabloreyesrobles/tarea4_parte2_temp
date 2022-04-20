@@ -1,0 +1,15 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../vitis_hls/eucMod.cpp in debug mode
+   Generating csim.exe
+Running C++ Simulation!
+-----------------------------------
+Valor esperado: 3452
+Valor calculado: 3452
+Diferencia directa: 0
+Diferencia relativa: 0
+-----------------------------------
+PASSED!
+-----------------------------------
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

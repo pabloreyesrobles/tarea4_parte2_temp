@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="eucMod.cpp" path="E:\Magisterio\IPD-432\Tarea_4\vitis_hls\eucMod.cpp"/>
+    <originFiles name="eucMod.h" path="E:\Magisterio\IPD-432\Tarea_4\vitis_hls\eucMod.h"/>
+  </source>
+  <testbench>
+    <originFiles name="goldenreference.csv" path="E:\Magisterio\IPD-432\Tarea_4\vitis_hls\goldenreference.csv"/>
+    <originFiles name="testbench.cpp" path="E:\Magisterio\IPD-432\Tarea_4\vitis_hls\testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

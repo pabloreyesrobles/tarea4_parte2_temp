@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Apr 19 20:38:45 2022
+# Process ID: 10552
+# Current directory: E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/impl/ip/vivado.log
+# Journal file: E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 19 20:38:51 2022...

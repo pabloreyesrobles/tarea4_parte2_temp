@@ -1,0 +1,93 @@
+Running C++ Simulation!
+-----------------------------------
+Valor esperado: 3452
+Valor calculado: 3452
+Diferencia directa: 0
+Diferencia relativa: 0
+-----------------------------------
+PASSED!
+-----------------------------------
+
+E:\Magisterio\IPD-432\Tarea_4\zynq_hls_coprocessor\solution1\sim\verilog>set PATH= 
+
+E:\Magisterio\IPD-432\Tarea_4\zynq_hls_coprocessor\solution1\sim\verilog>call C:/Xilinx/Vivado/2021.1/bin/xelab xil_defaultlib.apatb_eucDis_top glbl -Oenable_linking_all_libraries  -prj eucDis.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_19 -L floating_point_v7_1_12 --lib "ieee_proposed=./ieee_proposed" -s eucDis  
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_eucDis_top glbl -Oenable_linking_all_libraries -prj eucDis.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_19 -L floating_point_v7_1_12 --lib ieee_proposed=./ieee_proposed -s eucDis 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/eucDis.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_eucDis_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/eucDis.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eucDis
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/eucDis_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eucDis_control_s_axi
+INFO: [VRFC 10-311] analyzing module eucDis_control_s_axi_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/eucDis_mul_32s_32s_32_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eucDis_mul_32s_32s_32_2_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/eucDis_sqrt_fixed_33_33_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eucDis_sqrt_fixed_33_33_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.eucDis_sqrt_fixed_33_33_s
+Compiling module xil_defaultlib.eucDis_control_s_axi_ram(MEM_STY...
+Compiling module xil_defaultlib.eucDis_control_s_axi
+Compiling module xil_defaultlib.eucDis_mul_32s_32s_32_2_1(NUM_ST...
+Compiling module xil_defaultlib.eucDis
+Compiling module xil_defaultlib.AESL_axi_slave_control
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.pp_loop_intf(FSM_WIDTH=13)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_eucDis_top
+Compiling module work.glbl
+Built simulation snapshot eucDis
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/xsim.dir/eucDis/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 19 20:37:03 2022...
+
+****** xsim v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/eucDis/xsim_script.tcl
+# xsim {eucDis} -autoloadwcfg -tclbatch {eucDis.tcl}
+Time resolution is 1 ps
+source eucDis.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "134185000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 134245 ns : File "E:/Magisterio/IPD-432/Tarea_4/zynq_hls_coprocessor/solution1/sim/verilog/eucDis.autotb.v" Line 350
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Apr 19 20:37:10 2022...
+Running C++ Simulation!
+-----------------------------------
+Valor esperado: 3452
+Valor calculado: 3452
+Diferencia directa: 0
+Diferencia relativa: 0
+-----------------------------------
+PASSED!
+-----------------------------------

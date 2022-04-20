@@ -1,0 +1,37 @@
+#include "xparameters.h"
+#include "xgpiops.h"
+#include "xstatus.h"
+#include "xplatform_info.h"
+#include <xil_printf.h>
+
+#ifndef GPIO_DEVICE_ID
+#define GPIO_DEVICE_ID		XPAR_XGPIOPS_0_DEVICE_ID
+#endif
+
+static u32 out_pin;
+XGpioPs gpio;
+
+int main(void) {
+  int Status;
+
+  XGpioPs_Config *config_ptr;
+
+  config_ptr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	out_pin = 7;
+
+  Status = XGpioPs_CfgInitialize(&gpio, config_ptr, config_ptr->BaseAddr);
+	if (Status != XST_SUCCESS) {
+    printf("GPIO Polled Mode Example Test Failed\r\n");
+		return XST_FAILURE;
+	}
+
+  XGpioPs_SetDirectionPin(&gpio, out_pin, 1);
+	XGpioPs_SetOutputEnablePin(&gpio, out_pin, 1);
+	XGpioPs_WritePin(&gpio, out_pin, 0x0);
+
+  for (int i = 0; i < 10; i++) {
+    XGpioPs_WritePin(&gpio, out_pin, 0x1);
+    for (int j = 0; j < 10000000; j++);
+    XGpioPs_WritePin(&gpio, out_pin, 0x0);
+  }
+}

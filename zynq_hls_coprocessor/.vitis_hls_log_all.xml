@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="zynq_hls_coprocessor" solutionName="solution1" date="2022-04-19T20:36:07.886-0400" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'sqrt_fixed&lt;33, 33>' to 'sqrt_fixed_33_33_s'." projectName="zynq_hls_coprocessor" solutionName="solution1" date="2022-04-19T20:36:04.612-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'C' as it is incompatible with its interface mode 's_axilite'." projectName="zynq_hls_coprocessor" solutionName="solution1" date="2022-04-19T20:36:02.869-0400" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': C:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="zynq_hls_coprocessor" solutionName="solution1" date="2022-04-19T20:35:47.697-0400" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5528] Ignore interface attribute or pragma which is not used in top function: vitis_hls/eucMod.cpp:6:9" projectName="zynq_hls_coprocessor" solutionName="solution1" date="2022-04-19T20:35:47.668-0400" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="WARNING: [HLS 200-626] This design is unable to schedule all read ports in the first II cycle. The RTL testbench may treat the design as non-pipelined" projectName="zynq_hls_coprocessor" solutionName="solution1" date="2022-04-19T20:36:23.320-0400" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
