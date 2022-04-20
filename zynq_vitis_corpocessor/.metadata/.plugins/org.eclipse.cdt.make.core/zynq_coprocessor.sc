@@ -8,6 +8,7 @@
         
         
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+            <includePath path="#undef __ARM_ARCH" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_IDIV" removed="true"/>
             <includePath path="#undef __ARM_ASM_SYNTAX_UNIFIED__" removed="true"/>
             <includePath path="#undef __THUMBEL__" removed="true"/>

@@ -1,6 +1,6 @@
 Nothing to build in platform 'design_1_wrapper'
 
-17:13:33 **** Incremental Build of configuration Debug for project zynq_coprocessor ****
+17:57:59 **** Incremental Build of configuration Debug for project zynq_coprocessor ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -74,9 +74,9 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cort
       |                                ^~~~~~~~~~~~~~~~~~~~~~~
 ../src/main.c:46:32: note: (near initialization for 'XEucdis_Write_B[7]')
 ../src/main.c: In function 'main':
-../src/main.c:99:7: warning: unused variable 'usum' [-Wunused-variable]
-   99 |   u32 usum = (u32)sum;
-      |       ^~~~
+../src/main.c:101:9: warning: unused variable 'usum' [-Wunused-variable]
+  101 |     u32 usum = (u32)sum;
+      |         ^~~~
 'Finished building: ../src/main.c'
 ' '
 'Building target: zynq_coprocessor.elf'
@@ -87,6 +87,6 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size zynq_coprocessor.elf  |tee "zynq_coprocessor.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  85111	   3404	  31952	 120467	  1d693	zynq_coprocessor.elf
+  85175	   3404	  31952	 120531	  1d6d3	zynq_coprocessor.elf
 'Finished building: zynq_coprocessor.elf.size'
 ' '

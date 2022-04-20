@@ -13317,3 +13317,525 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-67: Launc
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:14:49.594
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-67: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:55:58.913
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-75: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:55:58.943
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-75: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:55:58.943
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-75: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:55:58.949
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.5",
+}]. Thread: Worker-75: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-04-20 17:55:58.950
+!MESSAGE Generating MD5 hash for file: E:\Magisterio\IPD-432\Tarea_4\zynq_vitis_corpocessor\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:55:58.952
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-75: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:55:58.955
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-75: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:00.730
+!MESSAGE XSCT Command: [disconnect tcfchan#13], Thread: Thread-1411
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:00.755
+!MESSAGE XSCT command with result: [disconnect tcfchan#13], Result: [null, ]. Thread: Thread-1411
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.339
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.349
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#14]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.350
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.453
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.454
+!MESSAGE XSCT Command: [version -server], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.459
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.459
+!MESSAGE XSCT Command: [version], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.460
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 1933 on 2021-06-09-14:19:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.461
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.469
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.469
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.493
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.494
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.505
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.505
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.556
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.557
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.567
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.568
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.591
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.592
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.601
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.602
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.621
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.622
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.630
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.631
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.651
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.651
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.659
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.660
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.679
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.680
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A428F5A" && level == 0}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.701
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A428F5A" && level == 0}], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.701
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.724
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.725
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.735
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.736
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.801
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:05.801
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.824
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.865
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.874
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.875
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.897
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.898
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A428F5A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.938
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A428F5A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:08.938
+!MESSAGE XSCT Command: [fpga -file E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.181
+!MESSAGE XSCT command with result: [fpga -file E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.237
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.259
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.260
+!MESSAGE XSCT Command: [loadhw -hw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.271
+!MESSAGE XSCT command with result: [loadhw -hw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_0]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.272
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.274
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.275
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.287
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.287
+!MESSAGE XSCT Command: [source E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/psinit/ps7_init.tcl], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.314
+!MESSAGE XSCT command with result: [source E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.315
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.854
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.854
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.865
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.866
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.877
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:10.878
+!MESSAGE XSCT Command: [dow E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/Debug/zynq_coprocessor.elf], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:11.246
+!MESSAGE XSCT command with result: [dow E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/Debug/zynq_coprocessor.elf], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:11.247
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:11.295
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:11.395
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:11.419
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:11.420
+!MESSAGE XSCT Command: [con], Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:56:11.455
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-76: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:57:59.272
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:57:59.278
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:57:59.279
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:57:59.283
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.5",
+}]. Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-04-20 17:57:59.283
+!MESSAGE Generating MD5 hash for file: E:\Magisterio\IPD-432\Tarea_4\zynq_vitis_corpocessor\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:57:59.285
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:57:59.287
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:04.498
+!MESSAGE XSCT Command: [disconnect tcfchan#14], Thread: Thread-1495
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:04.503
+!MESSAGE XSCT command with result: [disconnect tcfchan#14], Result: [null, ]. Thread: Thread-1495
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.578
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.586
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#15]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.587
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.737
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.738
+!MESSAGE XSCT Command: [version -server], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.743
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.744
+!MESSAGE XSCT Command: [version], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.747
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 1933 on 2021-06-09-14:19:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.748
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.758
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.758
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.786
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.787
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.804
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.805
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.827
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.828
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.836
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.836
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.858
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.859
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.870
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.872
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.904
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.905
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.913
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.914
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.934
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.935
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.943
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.944
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.964
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.965
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A428F5A" && level == 0}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.985
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A428F5A" && level == 0}], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:08.986
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:09.024
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:09.025
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:09.036
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:09.036
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:09.103
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:09.104
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.127
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.199
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.209
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A428F5A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.209
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.233
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.234
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A428F5A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.272
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A428F5A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A428F5A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:12.273
+!MESSAGE XSCT Command: [fpga -file E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.483
+!MESSAGE XSCT command with result: [fpga -file E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.520
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.538
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.539
+!MESSAGE XSCT Command: [loadhw -hw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.550
+!MESSAGE XSCT command with result: [loadhw -hw E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_0]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.552
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.554
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.556
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.569
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.569
+!MESSAGE XSCT Command: [source E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/psinit/ps7_init.tcl], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.572
+!MESSAGE XSCT command with result: [source E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:13.573
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.016
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.017
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.026
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.027
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.053
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.054
+!MESSAGE XSCT Command: [dow E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/Debug/zynq_coprocessor.elf], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.399
+!MESSAGE XSCT command with result: [dow E:/Magisterio/IPD-432/Tarea_4/zynq_vitis_corpocessor/zynq_coprocessor/Debug/zynq_coprocessor.elf], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.400
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.432
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.540
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.564
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.565
+!MESSAGE XSCT Command: [con], Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-04-20 17:58:14.617
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-75: Launching Debugger_zynq_coprocessor-Default
