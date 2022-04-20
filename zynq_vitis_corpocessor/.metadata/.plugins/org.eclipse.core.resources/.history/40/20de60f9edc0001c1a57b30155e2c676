@@ -16,7 +16,7 @@
 
 #define GPIO_DEVICE_ID      XPAR_XGPIOPS_0_DEVICE_ID
 
-#define EUC_RAND_FACTOR     ((double)0xFF / (double)RAND_MAX)
+#define EUC_RAND_FACTOR     ((double)0x7FFF / (double)RAND_MAX)
 
 #define VECTOR_SIZE				  1024
 #define BUFFER_SIZE				  128
@@ -96,7 +96,6 @@ int main(void) {
   for (int i = 0; i < VECTOR_SIZE; i++) {
     sum += (double)((A_data[i] - B_data[i]) * (A_data[i] - B_data[i]));
   }
-  u32 usum = (u32)sum;
   result_sw = (u32)sqrt(sum);
   printf("Resultado SW: %lu\n", result_sw);
 

@@ -44,3 +44,5 @@ timestamp=[2022-04-20 15:46:04], mode=BUILD, duration=0:00:02.641, duration_ms=2
 timestamp=[2022-04-20 15:46:31], mode=BUILD, duration=0:00:01.346, duration_ms=1346, data={name=zynq_coprocessor, configuration=Debug, clean_build=false}
 timestamp=[2022-04-20 16:16:41], mode=BUILD, duration=0:00:01.379, duration_ms=1379, data={name=zynq_coprocessor, configuration=Debug, clean_build=false}
 timestamp=[2022-04-20 16:17:50], mode=BUILD, duration=0:00:01.902, duration_ms=1902, data={name=zynq_coprocessor, configuration=Debug, clean_build=false}
+timestamp=[2022-04-20 17:08:11], mode=BUILD, duration=0:00:01.295, duration_ms=1295, data={name=zynq_coprocessor, configuration=Debug, clean_build=false}
+timestamp=[2022-04-20 17:13:34], mode=BUILD, duration=0:00:01.289, duration_ms=1289, data={name=zynq_coprocessor, configuration=Debug, clean_build=false}

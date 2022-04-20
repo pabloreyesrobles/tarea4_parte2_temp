@@ -16,7 +16,7 @@
 
 #define GPIO_DEVICE_ID      XPAR_XGPIOPS_0_DEVICE_ID
 
-#define EUC_RAND_FACTOR     ((double)0xFF / (double)RAND_MAX)
+#define EUC_RAND_FACTOR     ((double)0x7FFF / (double)RAND_MAX)
 
 #define VECTOR_SIZE				  1024
 #define BUFFER_SIZE				  128
